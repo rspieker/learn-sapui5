@@ -19,6 +19,10 @@
 						path: 'invoice>Status',
 						formatter: '.formatter.statusSimple'
 					}"/>
+					<ObjectStatus text="{
+						parts: [{path: 'invoice>ExtendedPrice'}, {path: 'view>/currency'}],
+						formatter: '.formatter.properCurrency'
+					}"/>
 				</firstStatus>
 			</ObjectListItem>
 		</items>
