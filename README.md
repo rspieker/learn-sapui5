@@ -131,8 +131,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 4: XML Views](https://sapui5.hana.ondemand.com/#/topic/1409791afe4747319a3b23a1e2fc7064)
 - [Step 5: Controllers](https://sapui5.hana.ondemand.com/#/topic/50579ddf2c934ce789e056cfffe9efa9)
 - [Step 6: Modules](https://sapui5.hana.ondemand.com/#/topic/f665d0de4dba405f9af4294de824b03b)
-- **[Step 7: JSON Model](https://sapui5.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409)**
-- Step 8: Translatable Texts
+- [Step 7: JSON Model](https://sapui5.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409)
+- **[Step 8: Translatable Texts](https://sapui5.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc)**
 - Step 9: Component Configuration
 - Step 10: Descriptor for Applications
 - Step 11: Pages and Panels
