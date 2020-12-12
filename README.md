@@ -168,8 +168,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 32: Routing with Parameters](https://sapui5.hana.ondemand.com/#/topic/2366345a94f64ec1a80f9d9ce50a59ef)
 - [Step 33: Routing Back and History](https://sapui5.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb)
 - [Step 34: Custom Controls](https://sapui5.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db)
-- **[Step 35: Responsiveness](https://sapui5.hana.ondemand.com/#/topic/a96e18b4cd924196b255eb9623431dbb)**
-- Step 36: Device Adaptation
+- [Step 35: Responsiveness](https://sapui5.hana.ondemand.com/#/topic/a96e18b4cd924196b255eb9623431dbb)
+- **[Step 36: Device Adaptation](https://sapui5.hana.ondemand.com/#/topic/d63a15e5eebb45cdada317bae5f45bc2)**
 - Step 37: Content Density
 - Step 38: Accessibility
 
