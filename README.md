@@ -125,7 +125,7 @@ Open that URL in your browser and you'll be presented with the contents of your 
 
 ### [Walkthrough](https://sapui5.hana.ondemand.com/#/topic/3da5f4be63264db99f2e5b04c5e853db)
 
-- Step 1: Hello World!
+- **[Step 1: Hello World!](https://sapui5.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39)**
 - Step 2: Bootstrap
 - Step 3: Controls
 - Step 4: XML Views
