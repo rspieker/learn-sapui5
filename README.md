@@ -140,8 +140,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
     - webapp/index.html (`data-sap-ui-resourceroots` and `data-sap-ui-onInit` attributes, note that the latter uses '/' as separator instead of '.')
     - webapp/manifest.json (`sap.app` -> `id`)
 - [Step 9: Component Configuration](https://sapui5.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee)
-- **[Step 10: Descriptor for Applications](https://sapui5.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f)**
-- Step 11: Pages and Panels
+- [Step 10: Descriptor for Applications](https://sapui5.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f)
+- **[Step 11: Pages and Panels](https://sapui5.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3)**
 - Step 12: Shell Control as Container
 - Step 13: Margins and Paddings
 - Step 14: Custom CSS and Theme Colors
