@@ -1,18 +1,18 @@
 sap.ui.define([
 	'sap/ui/core/mvc/Controller',
 	'sap/m/MessageToast'
-], function (Controller, MessageToast) {
+], (Controller, MessageToast) => {
 	'use strict';
 	return Controller.extend('sap.ui.demo.walkthrough.controller.HelloPanel', {
-		onShowHello: function () {
+		onShowHello() {
 			// read msg from i18n model
-			var oBundle = this.getView().getModel('i18n').getResourceBundle();
-			var sRecipient = this.getView().getModel().getProperty('/recipient/name');
-			var sMsg = oBundle.getText('helloMsg', [sRecipient]);
+			const bundle = this.getView().getModel('i18n').getResourceBundle();
+			const recipient = this.getView().getModel().getProperty('/recipient/name');
+			const message = bundle.getText('helloMsg', [recipient]);
 			// show message
-			MessageToast.show(sMsg);
+			MessageToast.show(message);
 		},
-		onOpenDialog: function () {
+		onOpenDialog() {
 			this.getOwnerComponent().openHelloDialog();
 		},
 	});
