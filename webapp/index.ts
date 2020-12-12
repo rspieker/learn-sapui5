@@ -1,14 +1,12 @@
 sap.ui.define([
 	'sap/ui/core/ComponentContainer'
-], function (ComponentContainer) {
-	'use strict';
-
-	new ComponentContainer({
+], (
+	ComponentContainer: typeof sap.ui.core.ComponentContainer,
+) => {
+	new ComponentContainer(undefined, {
 		name: 'sap.ui.demo.walkthrough',
 		settings: {
-			id: 'walkthrough'
+			id: 'walkthrough',
 		},
-		async: true
 	}).placeAt('content');
-
 });

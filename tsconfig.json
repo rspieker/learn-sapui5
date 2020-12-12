@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "none",
+    "types": [
+      "@openui5/ts-types"
+    ]
+  }
+}
