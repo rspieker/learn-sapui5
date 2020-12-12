@@ -147,8 +147,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 14: Custom CSS and Theme Colors](https://sapui5.hana.ondemand.com/#/topic/723f4b2334e344c08269159797f6f796)
   - The correct link to [CSS Classes for Theme Parameters](https://sapui5.hana.ondemand.com/#/topic/ea08f53503da42c19afd342f4b0c9ec7.html) referenced on the tutorial page
 - [Step 15: Nested Views](https://sapui5.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee)
-- **[Step 16: Dialogs and Fragments](https://sapui5.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a)**
-- Step 17: Fragment Callbacks
+- [Step 16: Dialogs and Fragments](https://sapui5.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a)
+- **[Step 17: Fragment Callbacks](https://sapui5.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e)**
 - Step 18: Icons
 - Step 19: Reuse Dialogs
 - Step 20: Aggregation Binding
