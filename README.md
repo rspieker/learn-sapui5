@@ -156,8 +156,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 22: Expression Binding](https://sapui5.hana.ondemand.com/#/topic/c98d57347ba444c6945f596584d2db45)
 - [Step 23: Custom Formatters](https://sapui5.hana.ondemand.com/#/topic/0f8626ed7b7542ffaa44601828db20de)
 - [Step 24: Filtering](https://sapui5.hana.ondemand.com/#/topic/5295470d7eee46c1898ee46c1b9ad763)
-- **[Step 25: Sorting and Grouping](https://sapui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)**
-- Step 26: Remote OData Service
+- [Step 25: Sorting and Grouping](https://sapui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)
+- **[Step 26: Remote OData Service](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109)**
 - Step 27: Mock Server Configuration
 - Step 28: Unit Test with QUnit
 - Step 29: Integration Test with OPA
