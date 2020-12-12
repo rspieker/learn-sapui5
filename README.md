@@ -143,8 +143,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 10: Descriptor for Applications](https://sapui5.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f)
 - [Step 11: Pages and Panels](https://sapui5.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3)
 - [Step 12: Shell Control as Container](https://sapui5.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e)
-- **[Step 13: Margins and Paddings](https://sapui5.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69)**
-- Step 14: Custom CSS and Theme Colors
+- [Step 13: Margins and Paddings](https://sapui5.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69)
+- **[Step 14: Custom CSS and Theme Colors](https://sapui5.hana.ondemand.com/#/topic/723f4b2334e344c08269159797f6f796)**
 - Step 15: Nested Views
 - Step 16: Dialogs and Fragments
 - Step 17: Fragment Callbacks
