@@ -1,6 +1,16 @@
 <mvc:View controllerName="learn.ui5.walkthrough.controller.App"
 	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core"
+	core:require="{ formatMessage: 'sap/base/strings/formatMessage' }">
 	<Button text="{i18n>showHelloButtonText}" press=".onShowHello"/>
 	<Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
+
+	<Text text="{
+		parts: [
+			'i18n>helloMsg',
+			'/recipient/name'
+		],
+		formatter: 'formatMessage'
+	}"/>
 </mvc:View>
