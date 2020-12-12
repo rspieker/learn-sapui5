@@ -171,6 +171,6 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 35: Responsiveness](https://sapui5.hana.ondemand.com/#/topic/a96e18b4cd924196b255eb9623431dbb)
 - [Step 36: Device Adaptation](https://sapui5.hana.ondemand.com/#/topic/d63a15e5eebb45cdada317bae5f45bc2)
 - [Step 37: Content Density](https://sapui5.hana.ondemand.com/#/topic/d935dbf196d34997bf1ac42ac3e81579)
-- **[Step 38: Accessibility](https://sapui5.hana.ondemand.com/#/topic/ff7cab1f271a4181a86e5aa5c2f8d421)**
+- [Step 38: Accessibility](https://sapui5.hana.ondemand.com/#/topic/ff7cab1f271a4181a86e5aa5c2f8d421)
 
 
