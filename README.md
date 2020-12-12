@@ -127,8 +127,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
 
 - [Step 1: Hello World!](https://sapui5.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39)
 - [Step 2: Bootstrap](https://sapui5.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b)
-- **[Step 3: Controls](https://sapui5.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb)**
-- Step 4: XML Views
+- [Step 3: Controls](https://sapui5.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb)
+- **[Step 4: XML Views](https://sapui5.hana.ondemand.com/#/topic/1409791afe4747319a3b23a1e2fc7064)**
 - Step 5: Controllers
 - Step 6: Modules
 - Step 7: JSON Model
