@@ -158,9 +158,9 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 24: Filtering](https://sapui5.hana.ondemand.com/#/topic/5295470d7eee46c1898ee46c1b9ad763)
 - [Step 25: Sorting and Grouping](https://sapui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)
 - [Step 26: Remote OData Service](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109)
-- **[Step 27: Mock Server Configuration](https://sapui5.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508)**
+- [Step 27: Mock Server Configuration](https://sapui5.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508)
     - Don't forget to visit the /test/mockServer.html instead of index.html
-- Step 28: Unit Test with QUnit
+- **[Step 28: Unit Test with QUnit](https://sapui5.hana.ondemand.com/#/topic/e1ce1de315994a02bf162f4b3b5a9f09)*
 - Step 29: Integration Test with OPA
 - Step 30: Debugging Tools
 - Step 31: Routing and Navigation
