@@ -99,3 +99,78 @@ $ git commit -m "Base UI5 Project"                 # commit the changes
 
 We will be following the [Getting Started with SAPUI5](https://sapui5.hana.ondemand.com/#/) and the README will track the the course/step followed, everything in a branch of it own, making it easy to start at any point.
 
+Some steps do not actually need you to run the `npm run dev` command, I would recommend to do this from the start.
+
+So run the command
+
+```bash
+$ npm run dev
+```
+
+And wait for it to get started, you'll see something like
+
+```
+Server started
+URL: http://localhost:8080
+```
+
+Open that URL in your browser and you'll be presented with the contents of your webapp folder, in general you'll want to click through to the index.html file, which contains your application.
+
+
+### [Quick Start](https://sapui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1)
+
+- [Step 1 - Ready...](https://sapui5.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c)
+- [Step 2 - Steady...](https://sapui5.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd)
+- [Stap 3 - Go!](https://sapui5.hana.ondemand.com/#/topic/073d1073fc604beda94589d5c93b32e2)
+
+### [Walkthrough](https://sapui5.hana.ondemand.com/#/topic/3da5f4be63264db99f2e5b04c5e853db)
+
+- [Step 1: Hello World!](https://sapui5.hana.ondemand.com/#/topic/2680aa9b16c14a00b01261d04babbb39)
+- [Step 2: Bootstrap](https://sapui5.hana.ondemand.com/#/topic/fe12df2e338e43598977d09f3d191b7b)
+- [Step 3: Controls](https://sapui5.hana.ondemand.com/#/topic/ddbceecd7d3d42eea9cf78a820a238fb)
+- [Step 4: XML Views](https://sapui5.hana.ondemand.com/#/topic/1409791afe4747319a3b23a1e2fc7064)
+- [Step 5: Controllers](https://sapui5.hana.ondemand.com/#/topic/50579ddf2c934ce789e056cfffe9efa9)
+- [Step 6: Modules](https://sapui5.hana.ondemand.com/#/topic/f665d0de4dba405f9af4294de824b03b)
+- [Step 7: JSON Model](https://sapui5.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409)
+- [Step 8: Translatable Texts](https://sapui5.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc)
+    - Make sure the application id is the same in the following files
+        - webapp/controller/App.controller.js (both the `Controller.extend` and the `i18nModel` -> `bundleName`)
+        - webapp/view/App.view.xml (`controllerName` attribute)
+        - webapp/index.js (`viewName`)
+        - webapp/index.html (`data-sap-ui-resourceroots` and `data-sap-ui-onInit` attributes, note that the latter uses '/' as separator instead of '.')
+        - webapp/manifest.json (`sap.app` -> `id`)
+- [Step 9: Component Configuration](https://sapui5.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee)
+- [Step 10: Descriptor for Applications](https://sapui5.hana.ondemand.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f)
+- [Step 11: Pages and Panels](https://sapui5.hana.ondemand.com/#/topic/3b9d9f84930d43df90ad0789d99bd4a3)
+- [Step 12: Shell Control as Container](https://sapui5.hana.ondemand.com/#/topic/4df1d914e52d4b1aa0805eb01522537e)
+- [Step 13: Margins and Paddings](https://sapui5.hana.ondemand.com/#/topic/17b87fbafb5a4474982760d2a3a73e69)
+- [Step 14: Custom CSS and Theme Colors](https://sapui5.hana.ondemand.com/#/topic/723f4b2334e344c08269159797f6f796)
+    - The correct link to [CSS Classes for Theme Parameters](https://sapui5.hana.ondemand.com/#/topic/ea08f53503da42c19afd342f4b0c9ec7.html) referenced on the tutorial page
+- [Step 15: Nested Views](https://sapui5.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee)
+- [Step 16: Dialogs and Fragments](https://sapui5.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a)
+- [Step 17: Fragment Callbacks](https://sapui5.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e)
+- [Step 18: Icons](https://sapui5.hana.ondemand.com/#/topic/776f7352807e4f82b18176c8fbdc0c56)
+- [Step 19: Reuse Dialogs](https://sapui5.hana.ondemand.com/#/topic/19453962b8074b7399372c65cbe05370)
+- [Step 20: Aggregation Binding](https://sapui5.hana.ondemand.com/#/topic/bf71375454654b44af01379a3c3a6273)
+- [Step 21: Data Types](https://sapui5.hana.ondemand.com/#/topic/dfe04650afc046e0802abb1a1a90d2d9)
+- [Step 22: Expression Binding](https://sapui5.hana.ondemand.com/#/topic/c98d57347ba444c6945f596584d2db45)
+- [Step 23: Custom Formatters](https://sapui5.hana.ondemand.com/#/topic/0f8626ed7b7542ffaa44601828db20de)
+- [Step 24: Filtering](https://sapui5.hana.ondemand.com/#/topic/5295470d7eee46c1898ee46c1b9ad763)
+- [Step 25: Sorting and Grouping](https://sapui5.hana.ondemand.com/#/topic/c4b2a32bb72f483faa173e890e48d812)
+- [Step 26: Remote OData Service](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109)
+- [Step 27: Mock Server Configuration](https://sapui5.hana.ondemand.com/#/topic/bae9d90d2e9c4206889368f04edab508)
+    - Don't forget to visit the /test/mockServer.html instead of index.html
+- [Step 28: Unit Test with QUnit](https://sapui5.hana.ondemand.com/#/topic/e1ce1de315994a02bf162f4b3b5a9f09)
+- [Step 29: Integration Test with OPA](https://sapui5.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589)
+- [Step 30: Debugging Tools](https://sapui5.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f)
+    - Open with `CMD/CTRL` + `SHIFT` + `OPTION/ALT` + `S`, select component with `CMD/CTRL` + `SHIFT` + `OPTION/ALT` + click
+- [Step 31: Routing and Navigation](https://sapui5.hana.ondemand.com/#/topic/e5200ee755f344c8aef8efcbab3308fb)
+- [Step 32: Routing with Parameters](https://sapui5.hana.ondemand.com/#/topic/2366345a94f64ec1a80f9d9ce50a59ef)
+- [Step 33: Routing Back and History](https://sapui5.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb)
+- [Step 34: Custom Controls](https://sapui5.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db)
+- [Step 35: Responsiveness](https://sapui5.hana.ondemand.com/#/topic/a96e18b4cd924196b255eb9623431dbb)
+- [Step 36: Device Adaptation](https://sapui5.hana.ondemand.com/#/topic/d63a15e5eebb45cdada317bae5f45bc2)
+- [Step 37: Content Density](https://sapui5.hana.ondemand.com/#/topic/d935dbf196d34997bf1ac42ac3e81579)
+- [Step 38: Accessibility](https://sapui5.hana.ondemand.com/#/topic/ff7cab1f271a4181a86e5aa5c2f8d421)
+
+
