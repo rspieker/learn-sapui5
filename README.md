@@ -149,8 +149,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 15: Nested Views](https://sapui5.hana.ondemand.com/#/topic/df8c9c3d79b54c928855162bafcd88ee)
 - [Step 16: Dialogs and Fragments](https://sapui5.hana.ondemand.com/#/topic/4da72985139b4b83b5f1c1e0c0d2ed5a)
 - [Step 17: Fragment Callbacks](https://sapui5.hana.ondemand.com/#/topic/354f98ed2b514ba9960556333428d35e)
-- **[Step 18: Icons](https://sapui5.hana.ondemand.com/#/topic/776f7352807e4f82b18176c8fbdc0c56)**
-- Step 19: Reuse Dialogs
+- [Step 18: Icons](https://sapui5.hana.ondemand.com/#/topic/776f7352807e4f82b18176c8fbdc0c56)
+- **[Step 19: Reuse Dialogs](https://sapui5.hana.ondemand.com/#/topic/19453962b8074b7399372c65cbe05370)**
 - Step 20: Aggregation Binding
 - Step 21: Data Types
 - Step 22: Expression Binding
