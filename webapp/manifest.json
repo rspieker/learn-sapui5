@@ -42,7 +42,7 @@
 			},
 			"invoice": {
 				"type": "sap.ui.model.json.JSONModel",
-				"uri": "Invoices.json"
+				"uri": "data/Invoices.json"
 			}
 		},
 		"resources": {
