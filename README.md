@@ -99,3 +99,69 @@ $ git commit -m "Base UI5 Project"                 # commit the changes
 
 We will be following the [Getting Started with SAPUI5](https://sapui5.hana.ondemand.com/#/) and the README will track the the course/step followed, everything in a branch of it own, making it easy to start at any point.
 
+Some steps do not actually need you to run the `npm run dev` command, I would recommend to do this from the start.
+
+So run the command
+
+```bash
+$ npm run dev
+```
+
+And wait for it to get started, you'll see something like
+
+```
+Server started
+URL: http://localhost:8080
+```
+
+Open that URL in your browser and you'll be presented with the contents of your webapp folder, in general you'll want to click through to the index.html file, which contains your application.
+
+
+### [Quick Start](https://sapui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1)
+
+- [Step 1 - Ready...](https://sapui5.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c)
+- [Step 2 - Steady...](https://sapui5.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd)
+- [Stap 3 - Go!](https://sapui5.hana.ondemand.com/#/topic/073d1073fc604beda94589d5c93b32e2)
+
+### [Walkthrough](https://sapui5.hana.ondemand.com/#/topic/3da5f4be63264db99f2e5b04c5e853db)
+
+- Step 1: Hello World!
+- Step 2: Bootstrap
+- Step 3: Controls
+- Step 4: XML Views
+- Step 5: Controllers
+- Step 6: Modules
+- Step 7: JSON Model
+- Step 8: Translatable Texts
+- Step 9: Component Configuration
+- Step 10: Descriptor for Applications
+- Step 11: Pages and Panels
+- Step 12: Shell Control as Container
+- Step 13: Margins and Paddings
+- Step 14: Custom CSS and Theme Colors
+- Step 15: Nested Views
+- Step 16: Dialogs and Fragments
+- Step 17: Fragment Callbacks
+- Step 18: Icons
+- Step 19: Reuse Dialogs
+- Step 20: Aggregation Binding
+- Step 21: Data Types
+- Step 22: Expression Binding
+- Step 23: Custom Formatters
+- Step 24: Filtering
+- Step 25: Sorting and Grouping
+- Step 26: Remote OData Service
+- Step 27: Mock Server Configuration
+- Step 28: Unit Test with QUnit
+- Step 29: Integration Test with OPA
+- Step 30: Debugging Tools
+- Step 31: Routing and Navigation
+- Step 32: Routing with Parameters
+- Step 33: Routing Back and History
+- Step 34: Custom Controls
+- Step 35: Responsiveness
+- Step 36: Device Adaptation
+- Step 37: Content Density
+- Step 38: Accessibility
+
+
