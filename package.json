@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "learn-sapui5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:ui5": "ui5 serve",
+    "dev": "npm run dev:ui5",
+    "build:ui5": "ui5 build -a --clean-dest",
+    "build": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ui5/cli": "^2.6.6"
+  }
+}
