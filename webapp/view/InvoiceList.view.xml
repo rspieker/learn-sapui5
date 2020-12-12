@@ -17,7 +17,7 @@
 				<firstStatus>
 					<ObjectStatus text="{
 						path: 'invoice>Status',
-						formatter: '.formatter.statusText'
+						formatter: '.formatter.statusSimple'
 					}"/>
 				</firstStatus>
 			</ObjectListItem>

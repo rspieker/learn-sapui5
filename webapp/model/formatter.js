@@ -1,19 +1,16 @@
 sap.ui.define([], function () {
 	'use strict';
 	return {
-		statusText: function (sStatus) {
-			var resourceBundle = this.getView().getModel('i18n').getResourceBundle();
+		statusSimple: function (status) {
+			const bundle = this.getView().getModel('i18n').getResourceBundle();
+			const invoiceStatus = `invoiceStatus${status}`;
+			const [text] = [status, invoiceStatus].filter((text) => bundle.hasText(text));
 
-			switch (sStatus) {
-				case 'A':
-					return resourceBundle.getText('invoiceStatusA');
-				case 'B':
-					return resourceBundle.getText('invoiceStatusB');
-				case 'C':
-					return resourceBundle.getText('invoiceStatusC');
-				default:
-					return sStatus;
+			if (text) {
+				return bundle.getText(text);
 			}
-		}
+
+			return status;
+		},
 	};
 });
