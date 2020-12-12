@@ -120,6 +120,6 @@ Open that URL in your browser and you'll be presented with the contents of your 
 ### [Quick Start](https://sapui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1)
 
 - [Step 1 - Ready...](https://sapui5.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c)
-- **[Step 2 - Steady...](https://sapui5.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd)**
-- Stap 3 - Go!
+- [Step 2 - Steady...](https://sapui5.hana.ondemand.com/#/topic/128214a9b2754b15aec5e365780b03fd)
+- **[Stap 3 - Go!](https://sapui5.hana.ondemand.com/#/topic/073d1073fc604beda94589d5c93b32e2)**
 
