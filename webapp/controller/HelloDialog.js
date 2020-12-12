@@ -19,13 +19,16 @@ sap.ui.define([
 
 			// create dialog lazily
 			if (!this.pDialog) {
+				var oDialogPromise;
 				var oFragmentController = {
 					onCloseDialog: function () {
-						oView.byId('helloDialog').close();
+						oDialogPromise.then(function (oDialog) {
+							oDialog.close();
+						})
 					}
 				};
 				// load asynchronous XML fragment
-				this.pDialog = Fragment.load({
+				oDialogPromise = Fragment.load({
 					id: oView.getId(),
 					name: 'sap.ui.demo.walkthrough.view.HelloDialog',
 					controller: oFragmentController
@@ -34,6 +37,8 @@ sap.ui.define([
 					oView.addDependent(oDialog);
 					return oDialog;
 				});
+
+				this.pDialog = oDialogPromise;
 			}
 			this.pDialog.then(function (oDialog) {
 				oDialog.open();
