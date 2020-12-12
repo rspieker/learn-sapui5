@@ -163,6 +163,7 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 28: Unit Test with QUnit](https://sapui5.hana.ondemand.com/#/topic/e1ce1de315994a02bf162f4b3b5a9f09)
 - [Step 29: Integration Test with OPA](https://sapui5.hana.ondemand.com/#/topic/9bf4dce43b7943d0909cd6c58a933589)
 - **[Step 30: Debugging Tools](https://sapui5.hana.ondemand.com/#/topic/1ff250c2038849f5991209f7e6c36f1f)**
+    - Open with `CMD/CTRL` + `SHIFT` + `OPTION/ALT` + `S`, select component with `CMD/CTRL` + `SHIFT` + `OPTION/ALT` + click
 - Step 31: Routing and Navigation
 - Step 32: Routing with Parameters
 - Step 33: Routing Back and History
