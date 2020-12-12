@@ -132,14 +132,14 @@ Open that URL in your browser and you'll be presented with the contents of your 
 - [Step 5: Controllers](https://sapui5.hana.ondemand.com/#/topic/50579ddf2c934ce789e056cfffe9efa9)
 - [Step 6: Modules](https://sapui5.hana.ondemand.com/#/topic/f665d0de4dba405f9af4294de824b03b)
 - [Step 7: JSON Model](https://sapui5.hana.ondemand.com/#/topic/70ef981d350a495b940640801701c409)
-- **[Step 8: Translatable Texts](https://sapui5.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc)**
+- [Step 8: Translatable Texts](https://sapui5.hana.ondemand.com/#/topic/df86bfbeab0645e5b764ffa488ed57dc)
   - Make sure the application id is the same in the following files
     - webapp/controller/App.controller.js (both the `Controller.extend` and the `i18nModel` -> `bundleName`)
     - webapp/view/App.view.xml (`controllerName` attribute)
     - webapp/index.js (`viewName`)
     - webapp/index.html (`data-sap-ui-resourceroots` and `data-sap-ui-onInit` attributes, note that the latter uses '/' as separator instead of '.')
     - webapp/manifest.json (`sap.app` -> `id`)
-- Step 9: Component Configuration
+- **[Step 9: Component Configuration](https://sapui5.hana.ondemand.com/#/topic/4cfa60872dca462cb87148ccd0d948ee)**
 - Step 10: Descriptor for Applications
 - Step 11: Pages and Panels
 - Step 12: Shell Control as Container
