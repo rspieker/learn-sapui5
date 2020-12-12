@@ -166,8 +166,8 @@ Open that URL in your browser and you'll be presented with the contents of your 
     - Open with `CMD/CTRL` + `SHIFT` + `OPTION/ALT` + `S`, select component with `CMD/CTRL` + `SHIFT` + `OPTION/ALT` + click
 - [Step 31: Routing and Navigation](https://sapui5.hana.ondemand.com/#/topic/e5200ee755f344c8aef8efcbab3308fb)
 - [Step 32: Routing with Parameters](https://sapui5.hana.ondemand.com/#/topic/2366345a94f64ec1a80f9d9ce50a59ef)
-- **[Step 33: Routing Back and History](https://sapui5.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb)**
-- Step 34: Custom Controls
+- [Step 33: Routing Back and History](https://sapui5.hana.ondemand.com/#/topic/8ef57cfd37b44f089f7e3b52d56597eb)
+- **[Step 34: Custom Controls](https://sapui5.hana.ondemand.com/#/topic/d12d2ee6a5454d799358d425f9e7c4db)**
 - Step 35: Responsiveness
 - Step 36: Device Adaptation
 - Step 37: Content Density
