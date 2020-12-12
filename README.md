@@ -99,3 +99,27 @@ $ git commit -m "Base UI5 Project"                 # commit the changes
 
 We will be following the [Getting Started with SAPUI5](https://sapui5.hana.ondemand.com/#/) and the README will track the the course/step followed, everything in a branch of it own, making it easy to start at any point.
 
+Some steps do not actually need you to run the `npm run dev` command, I would recommend to do this from the start.
+
+So run the command
+
+```bash
+$ npm run dev
+```
+
+And wait for it to get started, you'll see something like
+
+```
+Server started
+URL: http://localhost:8080
+```
+
+Open that URL in your browser and you'll be presented with the contents of your webapp folder, in general you'll want to click through to the index.html file, which contains your application.
+
+
+### [Quick Start](https://sapui5.hana.ondemand.com/#/topic/592f36fd077b45349a67dcb3efb46ab1)
+
+- **[Step 1 - Ready...](https://sapui5.hana.ondemand.com/#/topic/851bde42e4e1410c96abbe402fa9128c)**
+- Step 2 - Steady...
+- Stap 3 - Go!
+
