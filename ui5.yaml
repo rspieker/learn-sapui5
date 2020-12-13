@@ -1,4 +1,10 @@
 specVersion: '2.2'
 metadata:
   name: learn-sapui5
+
 type: application
+
+builder:
+  resources:
+    excludes:
+      - "/**/*.ts"

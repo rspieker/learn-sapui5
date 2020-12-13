@@ -9,7 +9,8 @@
     "dev:typescript": "tsc --build --watch",
     "dev": "npm-run-all --parallel dev:*",
     "build:ui5": "ui5 build -a --clean-dest",
-    "build": "npm run build",
+    "build:typescript": "tsc --build",
+    "build": "npm-run-all --serial build:typescript build:ui5",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
