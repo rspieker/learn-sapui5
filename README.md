@@ -94,6 +94,14 @@ $ git add .gitignore webapp package.json ui5.yaml  # add the files we've created
 $ git commit -m "Base UI5 Project"                 # commit the changes
 ```
 
+## Typescript
+
+After following the tutorials and implementing the example code, the transition to typescript was done and from this point on all scripts will be implemented in typescript.
+
+The javascript sources will still be available on the `walkthrough/step-X` and `quick-start/step-X` branches.
+
+Running the project has remained unchanged `npm run dev` will still boot up the application server, but will now also take care of the typescript compilation.
+
 
 ## Tutorials
 
