@@ -14,5 +14,12 @@ sap.ui.define([], () => ({
 		const invoiceStatusKey: string = `invoiceStatus${status}`;
 
 		return bundle.getText(bundle.hasText(invoiceStatusKey) ? invoiceStatusKey : status);
-	}
+	},
+
+	properCurrency(amount: number, currency: string): string {
+		const locale = sap.ui.getCore().getConfiguration().getLanguage();
+		const formatter = new Intl.NumberFormat(locale, { style: 'currency', currency });
+
+		return formatter.format(amount);
+	},
 }));
