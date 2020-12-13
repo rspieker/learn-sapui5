@@ -4,26 +4,29 @@ sap.ui.define([
 	'sap/m/MessageToast',
 	'sap/ui/model/json/JSONModel',
 	'sap/ui/core/UIComponent',
-], function (Controller, History, MessageToast, JSONModel, UIComponent) {
-	'use strict';
+], (
+	Controller: typeof sap.ui.core.mvc.Controller,
+	History: typeof sap.ui.core.routing.History,
+	MessageToast: typeof sap.m.MessageToast,
+	JSONModel: typeof sap.ui.model.json.JSONModel,
+	UIComponent: typeof sap.ui.core.UIComponent
+) => {
 	return Controller.extend('sap.ui.demo.walkthrough.controller.Detail', {
-		onInit: function () {
-			var oViewModel = new JSONModel({
-				currency: 'EUR'
-			});
-			this.getView().setModel(oViewModel, 'view');
+		onInit(): void {
+			const model = new JSONModel({ currency: 'EUR' }, false);
+			this.getView().setModel(model, 'view');
 
-			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			oRouter.getRoute('detail').attachPatternMatched(this._onObjectMatched, this);
+			const router = sap.ui.core.UIComponent.getRouterFor(this);
+			router.getRoute('detail').attachPatternMatched(this._onObjectMatched, this);
 		},
-		_onObjectMatched: function (oEvent) {
+		_onObjectMatched(event): void {
 			this.byId('rating').reset();
 			this.getView().bindElement({
-				path: '/' + window.decodeURIComponent(oEvent.getParameter('arguments').invoicePath),
+				path: '/' + window.decodeURIComponent(event.getParameter('arguments').invoicePath),
 				model: 'invoice'
 			});
 		},
-		onNavBack: function () {
+		onNavBack(): void {
 			var oHistory = History.getInstance();
 			var sPreviousHash = oHistory.getPreviousHash();
 
@@ -35,7 +38,7 @@ sap.ui.define([
 				oRouter.navTo('overview', {}, true);
 			}
 		},
-		onRatingChange: function (oEvent) {
+		onRatingChange(oEvent): void {
 			var fValue = oEvent.getParameter('value');
 			var oResourceBundle = this.getView().getModel('i18n').getResourceBundle();
 

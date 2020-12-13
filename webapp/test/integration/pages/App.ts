@@ -1,10 +1,11 @@
 sap.ui.define([
 	'sap/ui/test/Opa5',
 	'sap/ui/test/actions/Press'
-], function (Opa5, Press) {
-	'use strict';
-
-	var sViewName = 'sap.ui.demo.walkthrough.view.HelloPanel';
+], (
+	Opa5: Opa5Integration,
+	Press: typeof sap.ui.test.actions.Press
+) => {
+	const name = 'sap.ui.demo.walkthrough.view.HelloPanel';
 
 	Opa5.createPageObjects({
 		onTheAppPage: {
@@ -12,7 +13,7 @@ sap.ui.define([
 				iPressTheSayHelloWithDialogButton: function () {
 					return this.waitFor({
 						id: 'helloDialogButton',
-						viewName: sViewName,
+						viewName: name,
 						actions: new Press(),
 						errorMessage: 'Did not find the "Say Hello With Dialog" button on the HelloPanel view'
 					});

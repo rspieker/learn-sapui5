@@ -1,13 +1,13 @@
 sap.ui.define([
 	'sap/ui/core/mvc/Controller',
-], function (Controller) {
-	'use strict';
-
+], (
+	Controller: typeof sap.ui.core.mvc.Controller
+) => {
 	return Controller.extend('sap.ui.demo.walkthrough.controller.App', {
-		onInit: function () {
+		onInit(): void {
 			this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
 		},
-		onOpenDialog: function () {
+		onOpenDialog(): void {
 			this.getOwnerComponent().openHelloDialog();
 		}
 	});
