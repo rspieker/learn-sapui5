@@ -1,8 +1,10 @@
+type MockServerImplementation = {
+	init(): void;
+}
+
 sap.ui.define([
 	'../localService/mockserver'
-], function (mockserver) {
-	'use strict';
-
+], (mockserver: MockServerImplementation) => {
 	// initialize the mock server
 	mockserver.init();
 
