@@ -22,11 +22,17 @@
 				class="myCustomButton"/>
 			<Input
 				value="{/recipient/name}"
-				description="Hello {/recipient/name}"
+				description="{
+					parts: [{ path: 'i18n>helloMsg' }, { path: '/recipient/name' }],
+					formatter: 'jQuery.sap.formatMessage'
+				}"
 				valueLiveUpdate="true"
 				width="60%"/>
 			<FormattedText
-				htmlText="Hello {/recipient/name}"
+				htmlText="{
+					parts: [{ path: 'i18n>helloMsg' }, { path: '/recipient/name' }],
+					formatter: 'jQuery.sap.formatMessage'
+				}"
 				class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
 		</content>
 	</Panel>
