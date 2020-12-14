@@ -1,0 +1,5 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Button text="NL" press=".setLanguage('nl')" />
+	<Button text="EN" press=".setLanguage('en')" />
+</core:FragmentDefinition>

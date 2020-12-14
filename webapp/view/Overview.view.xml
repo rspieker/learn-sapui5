@@ -1,15 +1,15 @@
 <mvc:View controllerName="sap.ui.demo.walkthrough.controller.App"
 	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core">
 	<Page title="{i18n>homePageTitle}">
 		<landmarkInfo>
 			<PageAccessibleLandmarkInfo rootRole="Region" rootLabel="{i18n>Overview_rootLabel}" contentRole="Main" contentLabel="{i18n>Overview_contentLabel}" headerRole="Banner" headerLabel="{i18n>Overview_headerLabel}"/>
 		</landmarkInfo>
 		<headerContent>
-			<Button icon="sap-icon://hello-world" press=".onOpenDialog"/>
+			<core:Fragment fragmentName="sap.ui.demo.walkthrough.view.Locales" type="XML" />
 
-			<Button text="NL" press=".setLanguage('nl')" />
-			<Button text="EN" press=".setLanguage('en')" />
+			<Button icon="sap-icon://hello-world" press=".onOpenDialog"/>
 		</headerContent>
 		<content>
 			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
