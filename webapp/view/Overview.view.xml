@@ -7,6 +7,9 @@
 		</landmarkInfo>
 		<headerContent>
 			<Button icon="sap-icon://hello-world" press=".onOpenDialog"/>
+
+			<Button text="NL" press=".setLanguage('nl')" />
+			<Button text="EN" press=".setLanguage('en')" />
 		</headerContent>
 		<content>
 			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>

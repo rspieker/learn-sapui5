@@ -9,6 +9,9 @@ sap.ui.define([
 		},
 		onOpenDialog(): void {
 			this.getOwnerComponent().openHelloDialog();
+		},
+		setLanguage(lang): void {
+			sap.ui.getCore().getConfiguration().setLanguage(lang.toUpperCase());
 		}
 	});
 });
