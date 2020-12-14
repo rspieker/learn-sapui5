@@ -24,7 +24,7 @@
 				value="{/recipient/name}"
 				description="{
 					parts: [{ path: 'i18n>helloMsg' }, { path: '/recipient/name' }],
-					formatter: 'jQuery.sap.formatMessage'
+					formatter: '.formatMessage'
 				}"
 				valueLiveUpdate="true"
 				width="60%"/>

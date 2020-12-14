@@ -6,6 +6,9 @@ sap.ui.define([
 	MessageToast: typeof sap.m.MessageToast,
 ) => {
 	return Controller.extend('sap.ui.demo.walkthrough.controller.HelloPanel', {
+		formatMessage(message, ...values) {
+			return message.replace(/\{([0-9]+)\}/g, (_: string, i: string) => values[Number(i)] || '');
+		},
 		onShowHello(): void {
 			// read msg from i18n model
 			const bundle = this.getView().getModel('i18n').getResourceBundle();
