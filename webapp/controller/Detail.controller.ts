@@ -4,14 +4,17 @@ sap.ui.define([
 	'sap/m/MessageToast',
 	'sap/ui/model/json/JSONModel',
 	'sap/ui/core/UIComponent',
+	'../model/formatter',
 ], (
 	Controller: typeof sap.ui.core.mvc.Controller,
 	History: typeof sap.ui.core.routing.History,
 	MessageToast: typeof sap.m.MessageToast,
 	JSONModel: typeof sap.ui.model.json.JSONModel,
-	UIComponent: typeof sap.ui.core.UIComponent
+	UIComponent: typeof sap.ui.core.UIComponent,
+	formatter: Formatter,
 ) => {
 	return Controller.extend('sap.ui.demo.walkthrough.controller.Detail', {
+		formatter,
 		onInit(): void {
 			const model = new JSONModel({ currency: 'EUR' }, false);
 			this.getView().setModel(model, 'view');

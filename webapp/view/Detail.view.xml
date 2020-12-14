@@ -5,11 +5,12 @@
 	<Page title="{i18n>detailPageTitle}" showNavButton="true" navButtonPress=".onNavBack">
 		<ObjectHeader responsive="true" fullScreenOptimized="true" number="{
 				parts: [{path: 'invoice>ExtendedPrice'}, {path: 'view>/currency'}],
-				type: 'sap.ui.model.type.Currency',
+				formatter: '.formatter.properCurrency',
 				formatOptions: {
-					showMeasure: false
+					showMeasure: false,
+					currencyCode: false
 				}
-			}" numberUnit="{view>/currency}" intro="{invoice>ShipperName}" title="{invoice>ProductName}">
+			}" intro="{invoice>ShipperName}" title="{invoice>ProductName}">
 			<attributes>
 				<ObjectAttribute title="{i18n>quantityTitle}" text="{invoice>Quantity}"></ObjectAttribute>
 				<ObjectAttribute title="{i18n>dateTitle}" text="{
